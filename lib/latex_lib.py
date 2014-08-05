@@ -46,8 +46,9 @@ class Exam_Problem(object):
 
 class Exam_Document(object):
 
-    def __init__(self, problems):
+    def __init__(self, problems, output_dir):
         self.problems = problems
+        self.output_dir = output_dir
 
     def deliver_latex(self):
         latex = r"""
@@ -60,7 +61,7 @@ class Exam_Document(object):
         latex += r"""
 \end{document}
         """
-        with open('test.tex', "w") as myfile:
+        with open(self.output_dir+'/test.tex', "w") as myfile:
             myfile.write(latex)
 
 

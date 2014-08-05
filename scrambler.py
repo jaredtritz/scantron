@@ -18,19 +18,27 @@ for pfile in pfiles:
     execfile((probs_path+'/'+pfile), tmp)
     imports[pfile] = tmp
 
+problems = []
 for prob in imports:
-    print imports[prob]['answers']
+    #print imports[prob]['answers']
+    question = tlib.Exam_Question(imports[prob]['question_tex'])
+    answers = tlib.Exam_Answers(imports[prob]['answers'])
+    solution = tlib.Exam_Solution(imports[prob]['solution_tex'])
+    problem = tlib.Exam_Problem(question, answers, solution)
+    problems.append(problem)
 
-import pdb; pdb.set_trace() 
-
-import subprocess
-subprocess.call(['./test.sh'])
-
-question = tlib.Exam_Question(question_tex)
-answers = tlib.Exam_Answers(answers)
-solution = tlib.Exam_Solution(solution_tex)
-problem1 = tlib.Exam_Problem(question, answers, solution)
-problems = [problem1]
-doc = tlib.Exam_Document(problems)
-
+doc = tlib.Exam_Document(problems, probs_path)
 doc.deliver_latex()
+
+#import subprocess
+#subprocess.call(['./test.sh'])
+
+"""
+    question = tlib.Exam_Question(question_tex)
+    answers = tlib.Exam_Answers(answers)
+    solution = tlib.Exam_Solution(solution_tex)
+    problem1 = tlib.Exam_Problem(question, answers, solution)
+    problems = [problem1]
+    doc = tlib.Exam_Document(problems)
+    doc.deliver_latex()
+"""
