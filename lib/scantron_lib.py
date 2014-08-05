@@ -107,6 +107,26 @@ class Scantron(object):
             ptable.append(alist)
         return ptable
 
+class Grader(object):
+
+    def __init__(self, score_key):
+        self.score_key = score_key
+
+    def score(self, qq):
+        # print for debugging
+        weights = self.score_key[qq.qid][1]
+        num_selected = len(qq.aids)
+        weight = 0
+        if num_selected < len(weights):
+            weight = weights[num_selected-1]
+        possible = self.score_key[qq.qid][0]
+        credits = [0]
+        for aa in qq.aids:
+            credits.append(possible[aa-1]) 
+        credit = weight * max(credits)
+        return credit
+
+
 def print_table(tdata):
     maxes = [0 for ii in tdata[0]]
     for dat in tdata:

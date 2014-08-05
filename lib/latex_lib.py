@@ -49,8 +49,10 @@ class Exam_Document(object):
     def __init__(self, problems, output_dir):
         self.problems = problems
         self.output_dir = output_dir
+        self.ofile_name = 'test'
+        self.versions = dict()
 
-    def deliver_latex(self):
+    def deliver_latex(self, versions):
         latex = r"""
 \documentclass{article}
 \usepackage{graphicx}
@@ -58,10 +60,19 @@ class Exam_Document(object):
         """
         for pp in self.problems:
             latex += pp.deliver_latex()
+            latex += r"\pagebreak"
         latex += r"""
 \end{document}
         """
-        with open(self.output_dir+'/test.tex', "w") as myfile:
+        tex_file = self.output_dir+'/'+self.ofile_name+'.tex'
+        with open(tex_file, "w") as myfile:
             myfile.write(latex)
 
+        """
+        import subprocess
+        shell_cmd = 'rm ' + self.output_dir + '/' + self.ofile_name + '.aux'
+        import pdb; pdb.set_trace() 
+        #subprocess.call([shell_cmd])
+        os.call(shell_cmd)
+        """
 

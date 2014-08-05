@@ -1,5 +1,7 @@
 #!/usr/bin/env python2
-from lib.scantron_lib import *
+#from lib.scantron_lib import *
+import lib.scantron_lib as slib
+import lib.latex_lib as tlib
 import csv
 import argparse
 import imp
@@ -24,15 +26,15 @@ with open(args.ifile, 'rb') as csvfile:
 
 imports = {}
 execfile(os.path.abspath(args.cfile), imports)
-if 'q_map' in imports and 'a_map' in imports:
+if 'q_map' in imports and 'a_map' in imports and 's_map' in imports:
     q_map = imports['q_map']
     a_map = imports['a_map']
-    Grader = imports['Grader']
+    s_map = imports['s_map']
 else:
     print "oops!  please check your -cfile format"
     exit()
 
-scantron = Scantron(sdata=sdata, idcol=args.sid_col, acols=args.ans_cols, fcol=args.form_col)
+scantron = slib.Scantron(sdata=sdata, idcol=args.sid_col, acols=args.ans_cols, fcol=args.form_col)
 
 scantron.init_exams()
 scantron.unscramble_exams(q_map, a_map)
@@ -42,4 +44,4 @@ scantron.unscramble_exams(q_map, a_map)
 #print_table(scantron.translate_identity_position())
 #print_table(scantron.translate_fomrA())
 
-print_table(scantron.score_exams(Grader()))
+print_table(scantron.score_exams(slib.Grader(s_map)))
