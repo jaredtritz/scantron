@@ -1,3 +1,5 @@
+import json
+
 class Question(object):
 
     def __init__(self, eform, qpos, aval):
@@ -140,5 +142,11 @@ def print_table(tdata):
             tmp.append(myformat.format(dat[ii]))
         pp = '| ' + ' | '.join(tmp) + ' |'
         print pp
+
+def write_json(var, data, ofile):
+    ofile.write('\n')
+    ofile.write(var + ' = ')
+    json.dump(data, ofile)
+    ofile.write('\n')
 
 
