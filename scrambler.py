@@ -10,7 +10,7 @@ if __name__ == "__main__":
     args = parser.parse_args() # go get args
 
 probs_path = os.path.abspath(args.pdir)
-pfiles = [fn for fn in os.listdir(args.pdir) if (fn.endswith('.py') and fn.find('prob') > 0)]
+pfiles = [fn for fn in os.listdir(args.pdir) if (fn.endswith('.py') and fn.find('prob') > -1)]
 
 imports = {}
 for pfile in pfiles:
@@ -24,13 +24,14 @@ for prob in imports:
     question = tlib.Exam_Question(imports[prob]['question_tex'])
     answers = tlib.Exam_Answers(imports[prob]['answers'])
     solution = tlib.Exam_Solution(imports[prob]['solution_tex'])
-    problem = tlib.Exam_Problem(question, answers, solution)
+    problem = tlib.Exam_Problem(prob, question, answers, solution)
     problems.append(problem)
 
+problems = sorted(problems, key=lambda prob: prob.name)
+
 doc = tlib.Exam_Document(problems, probs_path)
-doc.scramble(self, extras=0, questions=False, answers=False):
-import pdb; pdb.set_trace() 
-doc.deliver_latex()
+doc.write_scramble(versions=4, questions=False, answers=False)
+#doc.deliver_latex()
 
 #import subprocess
 #subprocess.call(['./test.sh'])
