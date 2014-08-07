@@ -1,3 +1,11 @@
+scrambler.py
+    Compiles input python file containing latex strings into multiple versions of latex output where questions and answers are scrambled.
+    Produces key/map files for unscambling, used by grader below.
+
+grader.py 
+    Merges scantron output from multiple exam formats where questions and answers were scrambled into one exam result summary.
+    Uses auto generated key/map file from scrambler above to unscramble and remerge the exam data.
+    Flexible exam scoring allows multiple answers/guesses to be entered per problem, with credit discounting based on number of guesses.
 
 Usage examples (with output below):
 
