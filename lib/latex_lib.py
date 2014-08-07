@@ -6,11 +6,12 @@ class Exam_Answers(object):
     def __init__(self, items):
         self.items = items
 
-    def deliver_latex(self):
+    def deliver_latex(self, order):
         answers_tex = r"""
 % Answers:
 \begin{enumerate}"""
-        for aa in self.items: 
+        for oo in order: 
+            aa = self.items[oo-1]
             answers_tex += r"""
     \item """ + aa
         answers_tex += r"""
@@ -42,9 +43,9 @@ class Exam_Problem(object):
         self.answers = answers
         self.solution = solution
 
-    def deliver_latex(self, version):
+    def deliver_latex(self, order):
         latex = self.question.deliver_latex()
-        latex += self.answers.deliver_latex()
+        latex += self.answers.deliver_latex(order)
         latex += self.solution.deliver_latex()
         return latex
 
@@ -54,6 +55,11 @@ class Exam_Document(object):
         self.problems = problems
         self.output_dir = output_dir
         self.versions = dict()
+
+    def getProb(self, name):
+        for pp in self.problems:
+            if pp.name == name:
+                return pp
 
     def write_maps(self, versions=1, qmix=False, amix=False):
         # scramble the questions
@@ -91,22 +97,24 @@ class Exam_Document(object):
 
     def write_exams(self):
         smap = self.read_maps()
-        self.deliver_latex()
+        for vv in smap['q_map'].keys():
+            maps = zip(smap['q_map'][vv], smap['a_map'][vv])
+            self.deliver_latex(vv, maps)
 
-    def deliver_latex(self):
-        problems = self.problems
+    def deliver_latex(self, version, maps):
         latex = r"""
 \documentclass{article}
 \usepackage{graphicx}
 \begin{document}
         """
-        for pp in problems:
-            latex += pp.deliver_latex()
+        for mm in maps:
+            pp = self.problems[mm[0]-1]
+            latex += pp.deliver_latex(mm[1])
             latex += r"\pagebreak"
         latex += r"""
 \end{document}
         """
-        tex_file = self.output_dir+'/exam'++'.tex'
+        tex_file = self.output_dir+'/exam'+version+'.tex'
         with open(tex_file, "w") as myfile:
             myfile.write(latex)
 

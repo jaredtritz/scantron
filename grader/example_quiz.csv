@@ -1,0 +1,83 @@
+id,key,null,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,course,exam,first,null,last,uname,score,percent,possible
+85908012 ,A,0  ,D,B,B,A,D,B,A,C,C,C,A,A,C,C,B,Sp14 - 240,Quiz1,Ali Mohammed M,,Al Haddad,alhaddad,7.00,46.67,15.00
+93061703 ,A,0  ,D,B,B,B,D,B,A,C,A,B,B,B,C,C,D,Sp14 - 240,Quiz1,Charles,,Barto,bartoc,5.00,33.33,15.00
+81863097 ,D,0  ,B,A,C,A,A,E,E,A,A,A,C,A,B,A,B,Sp14 - 240,Quiz1,Aaron Patrick,,Baumgarten,aaronbau,15.00,100.00,15.00
+74833201 ,C,0  ,E,B,C,D,D,E,C,E,C,D,D,B,A,B,AC,Sp14 - 240,Quiz1,Olivia Carol,,Beam,ocbeam,11.00,73.33,15.00
+86689096 ,D,0  ,D,A,C,E,A,E,E,A,D,A,B,A,A,A,B,Sp14 - 240,Quiz1,Samuel,,Bean,sabean,10.00,66.67,15.00
+91991515 ,C,0  ,E,B,B,D,D,E,C,E,D,D,D,B,AD,A,D,Sp14 - 240,Quiz1,Joseph Donald,,Beck,jdbec,9.00,60.00,15.00
+62124644 ,C,0  ,E,B,A,D,D,E,C,E,C,D,A,B,A,C,C,Sp14 - 240,Quiz1,Arjun,,Biyani,arbiyani,14.00,93.33,15.00
+35174204 ,D,0  ,B,A,B,A,A,E,E,A,A,A,B,A,AB,A,A,Sp14 - 240,Quiz1,David,,Burkland,dburklan,11.00,73.33,15.00
+83708851 ,D,0  ,B,A,B,CE,D,C,E,AB,C,C,B,A,B,C,B,Sp14 - 240,Quiz1,Arianna,,Carley,arinicho,6.00,40.00,15.00
+10794092 ,D,0  ,B,A,C,A,A,E,E,AB,B,A,B,A,B,A,B,Sp14 - 240,Quiz1,Jungsoo,,Chang,juchang,12.00,80.00,15.00
+94112008 ,C,0  ,E,B,A,D,D,E,C,E,BC,D,D,B,A,C,AB,Sp14 - 240,Quiz1,Ian Michael,,Charpie,icharpie,12.00,80.00,15.00
+22227218 ,A,0  ,D,B,B,B,D,B,A,C,AB,B,B,B,C,B,CE,Sp14 - 240,Quiz1,Seyadul,,Chowdhury,shchowdh,4.00,26.67,15.00
+20490830 ,D,0  ,B,A,C,A,A,E,E,A,A,A,B,A,B,A,B,Sp14 - 240,Quiz1,Samuel E,,Christensen,sechrist,14.00,93.33,15.00
+00767369 ,C,0  ,E,B,A,D,D,E,C,E,C,D,D,B,A,C,A,Sp14 - 240,Quiz1,Yooree,,Chung,chyooree,14.00,93.33,15.00
+83089690 ,B,0  ,B,A,A,B,A,B,C,C,A,B,D,A,B,A,C,Sp14 - 240,Quiz1,Adam Jacob,,Coon,adamcoon,15.00,100.00,15.00
+65599155 ,C,0  ,BD,B,C,D,D,E,C,E,BD,D,B,A,A,C,A,Sp14 - 240,Quiz1,Benjamin,,Corson,bencor,10.00,66.67,15.00
+90411160 ,C,0  ,C,B,A,D,A,E,C,E,D,B,D,B,A,B,E,Sp14 - 240,Quiz1,Aleksandra,,Czubko,aczubko,8.00,53.33,15.00
+40507687 ,B,0  ,E,A,C,D,A,B,C,C,C,D,C,A,B,B,A,Sp14 - 240,Quiz1,Siddhant,,Dalmia,sdalmia,7.00,46.67,15.00
+24501120 ,A,0  ,D,B,B,B,D,B,A,C,C,B,B,B,C,C,D,Sp14 - 240,Quiz1,Christian Ghaith,,Daman,cdaman,6.00,40.00,15.00
+66311690 ,D,0  ,E,A,C,A,A,E,E,A,D,A,C,A,B,A,B,Sp14 - 240,Quiz1,Kevin,,Flannagan,ksflan,13.00,86.67,15.00
+00747850 ,A,0  ,C,B,B,B,D,B,A,CE,AB,B,A,B,C,B,D,Sp14 - 240,Quiz1,Jacqueline,,Fortin Flefil,jackieff,3.00,20.00,15.00
+31314690 ,B,0  ,B,A,A,B,A,B,C,C,A,B,D,A,B,A,C,Sp14 - 240,Quiz1,Zachary Paul,,French,zachfren,15.00,100.00,15.00
+57591050 ,D,0  ,B,A,C,A,A,BE,E,A,BD,A,A,B,B,A,C,Sp14 - 240,Quiz1,Kyle Payne,,Geiss,kgeiss,10.00,66.67,15.00
+85905122 ,B,0  ,A,A,A,B,A,B,C,E,C,D,D,A,BD,A,DE,Sp14 - 240,Quiz1,Mariah Ann,,Gnegy,gnegym,9.00,60.00,15.00
+90458467 ,C,0  ,C,B,A,D,D,E,C,E,C,D,D,A,A,C,A,Sp14 - 240,Quiz1,Robert William,,Gooding,goodingr,12.00,80.00,15.00
+58645198 ,C,0  ,C,A,A,E,A,E,C,E,C,D,A,B,A,B,A,Sp14 - 240,Quiz1,Nana,,Gwa,nanagwa,10.00,66.67,15.00
+94852836 ,A,0  ,D,B,B,B,D,B,A,C,C,B,A,B,C,C,D,Sp14 - 240,Quiz1,Brook Cahill,,Handler,bhandler,5.00,33.33,15.00
+61505316 ,B,0  ,A,A,A,B,A,B,C,CE,A,B,C,A,B,A,C,Sp14 - 240,Quiz1,Mark Stephen,,Hartwig,mhartwig,12.00,80.00,15.00
+96103547 ,B,0  ,A,A,A,B,A,B,C,C,A,B,D,A,B,A,C,Sp14 - 240,Quiz1,Ashley,,Haupt,hauptas,14.00,93.33,15.00
+69053670 ,B,0  ,A,A,A,D,A,B,C,E,D,B,C,B,B,A,C,Sp14 - 240,Quiz1,Michele Dubois,,Hill,himichel,9.00,60.00,15.00
+62169204 ,A,0  ,C,B,B,B,D,B,A,E,C,B,A,B,C,C,A,Sp14 - 240,Quiz1,Caroline,,Honeycutt,cmhone,3.00,20.00,15.00
+57146529 ,A,0  ,D,B,B,B,D,B,A,CE,C,B,B,A,C,A,C,Sp14 - 240,Quiz1,Jian,,Huang,hjianlsa,7.00,46.67,15.00
+60470382 ,A,0  ,D,B,B,B,D,B,A,C,C,B,B,B,C,C,D,Sp14 - 240,Quiz1,Yusheng,,Jiang,yusheng,6.00,40.00,15.00
+90196494 ,A,0  ,A,B,B,D,BD,B,A,E,C,B,A,B,C,C,B,Sp14 - 240,Quiz1,Kevin T,,Jou,kevinjou,3.00,20.00,15.00
+94851944 ,C,0  ,D,B,A,E,D,E,C,E,D,D,D,A,A,C,A,Sp14 - 240,Quiz1,Brett Harris,,Karpinos,bhkarp,10.00,66.67,15.00
+09702760 ,D,0  ,B,A,C,A,A,E,E,A,B,A,C,A,B,A,B,Sp14 - 240,Quiz1,Adam Michael,,Keller,adkeller,14.00,93.33,15.00
+82365315 ,D,0  ,C,A,B,A,A,C,B,D,BD,A,AC,B,A,B,E,Sp14 - 240,Quiz1,Steve Walter,,King,stevking,4.00,26.67,15.00
+90631146 ,D,0  ,B,A,C,A,A,E,E,A,A,A,C,A,B,A,B,Sp14 - 240,Quiz1,Adena Louise,,Leibbrand,adenal,15.00,100.00,15.00
+49342075 ,A,0  ,C,B,A,B,D,B,A,C,D,B,A,B,C,C,D,Sp14 - 240,Quiz1,Jonathan,,Lim,limjon,2.00,13.33,15.00
+81486047 ,C,0  ,E,A,A,D,D,E,C,C,C,D,B,B,A,C,BE,Sp14 - 240,Quiz1,Emily Carol,,Lin,emilin,11.00,73.33,15.00
+12345056 ,C,0  ,E,B,A,D,D,E,C,E,D,D,D,B,A,C,B,Sp14 - 240,Quiz1,Christopher,,Loechli,cloechli,12.00,80.00,15.00
+95629693 ,D,0  ,B,A,C,A,A,E,E,A,A,A,C,A,B,C,B,Sp14 - 240,Quiz1,Umang,,Lohia,ulohia,14.00,93.33,15.00
+42145162 ,C,0  ,E,B,A,D,D,E,C,B,C,D,A,B,A,C,A,Sp14 - 240,Quiz1,Chong,,Ma,machong,14.00,93.33,15.00
+29933301 ,A,0  ,D,B,B,B,D,B,A,C,A,B,B,B,C,C,D,Sp14 - 240,Quiz1,Eyad,,Makki,eimakki,5.00,33.33,15.00
+52788320 ,B,0  ,B,A,A,B,A,B,C,CE,D,B,A,A,B,C,CE,Sp14 - 240,Quiz1,Rachel Faye,,Mandelblatt,rfmand,10.00,66.67,15.00
+70010834 ,A,0  ,D,B,B,BD,D,B,A,C,C,B,B,B,C,C,D,Sp14 - 240,Quiz1,Monique Akemi,,Manners,mmanners,6.00,40.00,15.00
+06809123 ,A,0  ,D,B,B,B,D,B,A,C,B,B,A,A,C,C,D,Sp14 - 240,Quiz1,Madison David,,Martin,madimart,5.00,33.33,15.00
+34607040 ,B,0  ,B,A,A,B,A,B,C,C,A,B,D,B,B,A,C,Sp14 - 240,Quiz1,Nolan Ryan,,Mathews,nolmath,14.00,93.33,15.00
+07577156 ,B,0  ,B,A,A,B,A,B,C,C,C,B,E,A,B,A,C,Sp14 - 240,Quiz1,Logan Francis,,McClintic,loganmcc,13.00,86.67,15.00
+48676394 ,B,0  ,B,A,A,B,A,B,C,C,CD,B,D,A,B,A,C,Sp14 - 240,Quiz1,Brandon,,McKee,mckeeb,14.00,93.33,15.00
+43661109 ,B,0  ,B,A,A,BC,A,B,C,C,A,B,C,A,B,A,C,Sp14 - 240,Quiz1,Nate William,,Mizraki,nmizraki,13.00,86.67,15.00
+83112891 ,C,0  ,E,B,B,D,D,E,C,E,A,D,D,B,A,B,A,Sp14 - 240,Quiz1,Nureen Hanisah,,Mohamad Zaki,nureen,11.00,73.33,15.00
+65773514 ,A,0  ,D,B,B,B,D,B,A,E,C,B,A,B,C,B,D,Sp14 - 240,Quiz1,Clarissa,,Nataatmadja,clarcn,5.00,33.33,15.00
+67141468 ,D,0  ,B,A,B,A,A,E,E,A,A,A,B,A,B,A,E,Sp14 - 240,Quiz1,Irene,,Ng,ngirene,12.00,80.00,15.00
+95721169 ,D,0  ,B,A,C,A,A,E,E,A,B,A,B,B,B,C,B,Sp14 - 240,Quiz1,John Thompson,,Pendy Jr,tpendy,11.00,73.33,15.00
+01505571 ,A,0  ,A,B,B,B,D,B,A,C,A,B,C,B,C,C,D,Sp14 - 240,Quiz1,Matthew,,Posh,mkposh,3.00,20.00,15.00
+95265984 ,A,0  ,D,B,B,B,D,B,A,C,C,B,A,B,C,C,D,Sp14 - 240,Quiz1,Julia Marie,,Pudar,pudarju,5.00,33.33,15.00
+70093079 ,C,0  ,B,B,A,D,D,E,C,A,BD,D,AC,B,A,A,E,Sp14 - 240,Quiz1,Rodrigo,,Rangel,rfrangel,9.00,60.00,15.00
+70105906 ,B,0  ,B,A,A,B,A,B,C,CE,C,B,C,A,B,C,C,Sp14 - 240,Quiz1,Jacob William,,Rees,jwrees,11.00,73.33,15.00
+59215892 ,B,0  ,B,A,A,B,A,B,C,C,A,B,C,A,B,A,C,Sp14 - 240,Quiz1,Eric Ross,,Ridenour,ericride,14.00,93.33,15.00
+67931893 ,A,0  ,D,B,C,B,D,B,A,C,B,B,A,B,C,C,E,Sp14 - 240,Quiz1,Takudzwa Owen,,Rusike,torus,2.00,13.33,15.00
+91828603 ,B,0  ,B,A,C,B,D,B,C,C,AC,B,D,A,B,A,C,Sp14 - 240,Quiz1,Theodore,,Sallen,tsallen,12.00,80.00,15.00
+72344370 ,A,0  ,D,B,B,B,D,B,A,C,A,B,B,B,C,C,D,Sp14 - 240,Quiz1,Carl John,,Scheller,cjschell,5.00,33.33,15.00
+76544198 ,B,0  ,B,A,A,B,A,B,C,C,A,B,D,B,B,A,C,Sp14 - 240,Quiz1,Koji,,Shiono,kshiono,14.00,93.33,15.00
+60310328 ,A,0  ,B,A,C,A,AC,BC,BE,AD,B,A,B,A,B,A,C,Sp14 - 240,Quiz1,Tyler Harris,,Smith,tylersmi,5.00,33.33,15.00
+90080757 ,C,0  ,E,B,A,D,D,E,C,E,B,D,D,A,A,C,A,Sp14 - 240,Quiz1,Jake Cruise,,Snyder,jcsny,12.00,80.00,15.00
+49459223 ,D,0  ,B,A,C,A,A,E,E,A,A,A,B,A,B,A,BD,Sp14 - 240,Quiz1,Austin,,Stawowczyk,astawcz,13.00,86.67,15.00
+51032470 ,B,0  ,A,A,A,B,A,B,C,CE,A,B,A,A,B,C,E,Sp14 - 240,Quiz1,Kevin Andrew,,Stephens Jr,stephkev,10.00,66.67,15.00
+78378203 ,D,0  ,B,A,C,A,A,E,E,A,B,A,D,A,B,A,B,Sp14 - 240,Quiz1,David Norman,,Storck,dstorck,13.00,86.67,15.00
+50661377 ,A,0  ,C,B,B,B,D,B,A,C,AB,B,A,B,C,C,D,Sp14 - 240,Quiz1,Akshay,,Suggula,asuggula,3.00,20.00,15.00
+40859561 ,D,0  ,B,A,C,A,A,E,BE,B,D,A,A,B,B,A,B,Sp14 - 240,Quiz1,Hyungwoo,,Tae,taechris,10.00,66.67,15.00
+37582446 ,A,0  ,D,B,B,B,D,B,A,C,C,B,B,A,C,C,B,Sp14 - 240,Quiz1,Jacob Samuel,,Tukel,tukel,6.00,40.00,15.00
+75036335 ,A,0  ,D,B,B,B,D,B,A,C,C,B,B,B,C,C,A,Sp14 - 240,Quiz1,Connor,,Velzy,velzycon,5.00,33.33,15.00
+20796449 ,B,0  ,A,A,A,D,AC,B,C,CE,A,B,CD,A,B,A,C,Sp14 - 240,Quiz1,Kelsey Suzanne,,Wagner,kswagner,10.00,66.67,15.00
+70664100 ,A,0  ,D,B,B,B,D,B,A,C,C,B,B,B,C,C,D,Sp14 - 240,Quiz1,Patrick J,,Walker,patwalk,6.00,40.00,15.00
+81254502 ,A,0  ,B,A,C,A,A,E,E,A,B,A,B,B,B,A,C,Sp14 - 240,Quiz1,Robert John,,Walworth,walworob,6.00,40.00,15.00
+56635832 ,C,0  ,E,B,A,D,D,E,C,C,C,D,A,B,A,C,A,Sp14 - 240,Quiz1,Yi Zhi,,Wee,weeyizhi,14.00,93.33,15.00
+84794548 ,C,0  ,E,B,A,E,D,E,C,E,D,D,D,A,A,C,C,Sp14 - 240,Quiz1,Clayton Robert,,Wehner,claywehn,10.00,66.67,15.00
+27094100 ,C,0  ,E,B,A,D,D,E,C,CE,D,D,D,B,A,A,A,Sp14 - 240,Quiz1,Alexa,,Weiser,aweiser,11.00,73.33,15.00
+03277008 ,B,0  ,B,A,A,B,A,B,C,C,C,B,C,B,B,A,C,Sp14 - 240,Quiz1,Sophia Michele,,Wensman,sophiamw,12.00,80.00,15.00
+32687929 ,B,0  ,A,A,A,B,A,B,C,CE,C,B,D,A,B,A,C,Sp14 - 240,Quiz1,Jerrit,,Yang,yjerrit,12.00,80.00,15.00
+75771607 ,A,0  ,D,B,B,B,D,B,A,C,C,B,B,B,C,C,D,Sp14 - 240,Quiz1,Gordon,,Zhang,gordonz,6.00,40.00,15.00
