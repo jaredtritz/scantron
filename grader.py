@@ -8,7 +8,7 @@ import imp
 import os
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Perform matching analysis using home grown \'resampling\' algorithm.')
+    parser = argparse.ArgumentParser(description='Grades multiple form exams from scantron output with custom grading stategies.')
     parser._optionals.title = "arguments"
     parser.add_argument('-ifile', required=True, help='csv file from scantron')
     parser.add_argument('-sid_col', type=int, required=True, help='student id column in ifile')

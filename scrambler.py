@@ -4,7 +4,7 @@ import argparse
 import os
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Perform matching analysis using home grown \'resampling\' algorithm.')
+    parser = argparse.ArgumentParser(description='Creates scrambled exams from latex pieces with unscrambling keys/maps.')
     parser._optionals.title = "arguments"
     parser.add_argument('-pdir', required=True, help='directory where python problem files are found')
     parser.add_argument('-versions', type=int, required=True, help='number of versions to make')
