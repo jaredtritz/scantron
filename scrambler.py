@@ -7,6 +7,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Perform matching analysis using home grown \'resampling\' algorithm.')
     parser._optionals.title = "arguments"
     parser.add_argument('-pdir', required=True, help='directory where python problem files are found')
+    parser.add_argument('-versions', type=int, required=True, help='number of versions to make')
+    parser.add_argument('-qmix', required=True, choices=['no', 'yes'], help='mix the questions')
+    parser.add_argument('-amix', required=True, choices=['no', 'yes'], help='mix the answers')
     args = parser.parse_args() # go get args
 
 probs_path = os.path.abspath(args.pdir)
@@ -30,8 +33,10 @@ for prob in imports:
 problems = sorted(problems, key=lambda prob: prob.name)
 
 doc = tlib.Exam_Document(problems, probs_path)
-doc.write_scramble(versions=4, questions=False, answers=False)
-#doc.deliver_latex()
+qmix = args.qmix == 'yes'
+amix = args.amix == 'yes'
+doc.write_maps(versions=4, qmix=qmix, amix=amix)
+doc.write_exams()
 
 #import subprocess
 #subprocess.call(['./test.sh'])
