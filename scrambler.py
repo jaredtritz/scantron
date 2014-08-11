@@ -35,7 +35,7 @@ problems = sorted(problems, key=lambda prob: prob.name)
 doc = tlib.Exam_Document(problems, probs_path)
 qmix = args.qmix == 'yes'
 amix = args.amix == 'yes'
-doc.write_maps(versions=4, qmix=qmix, amix=amix)
+doc.write_maps(versions=args.versions, qmix=qmix, amix=amix)
 doc.write_exams()
 
 #import subprocess
